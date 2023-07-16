@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
+import NavHeader from "./common/organism/NavHeader";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>hello world!</p>
-      </header>
+      <NavHeader />
     </div>
   );
 }
