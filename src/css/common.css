@@ -1,0 +1,11 @@
+.navbar {border-bottom: 1px solid #ddd;}
+.logo_box img {width: 150px;}
+.searchUser_box .btn {pointer-events: none;}
+
+.main_cont_box .each_cont_box {width: 338px; padding: 20px 10px; background-color: #f4f5f7;}
+.main_cont_box .each_cont_box:not(:first-child) {margin-left: 10px;}
+.add_board_btn {opacity: 0; background-color: rgba(0,0,0,0); transition: background-color 0.2s;}
+.add_board_btn i{background: url('/public/images/icon/icon_plus.svg') no-repeat center center; background-size: 100% 100%; display: inline-block; width: 14px; height: 14px;}
+.add_board_btn span {padding-left: 8px;}
+.each_cont_box:hover .add_board_btn {opacity: 1;}
+.add_board_btn:hover {background-color: rgba(0,0,0,.1);}

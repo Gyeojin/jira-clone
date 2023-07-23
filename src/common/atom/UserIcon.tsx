@@ -2,7 +2,7 @@ const UserIcon = () => {
   return (
     <>
       <div className="dropdown dropdown-end">
-        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+        <label tabIndex={0} className="btn btn-circle avatar">
           <div className="w-10 rounded-full">
             <img src="/images/icon/icon_user_default.svg" alt="" />
           </div>
